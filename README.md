@@ -31,9 +31,9 @@ then use this image for:
 
 `$ docker run --name <name> -p 4171:4171 claudiomastrapasqua/docker-nsq /nsqadmin --lookupd-http-address=tasks.<nsqlookup_name>:4161`
 
-### Deploy stack via docker-compose file
+### Deploy stack via docker-compose file (3-nodes example)
 
-*Requirements: Docker Engine 17.06.0+*
+*Requirements: Docker Engine 17.12.0+*
 
 ```
 version: "3.5"
